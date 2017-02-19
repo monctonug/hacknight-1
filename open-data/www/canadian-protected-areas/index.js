@@ -106,6 +106,10 @@ d3.csv(
             .attr("x", function(d, i) { return i ? null : 4; })
             .attr("y", 13)
             .text(function(d) { return d; });
+
+        cell.append("title")
+            .text(function(d) { return d.data.name + "\n" + format(d.value); });
+
     }
 );
 

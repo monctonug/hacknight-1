@@ -1,8 +1,8 @@
 # Open Data
 
-This project consists of making visualization of [Open Data](http://open.canada.ca/en/open-data)) made available by the Government of Canada.
+This project consists of making [D3.js](https://d3js.org/) visualization of [Open Data](http://open.canada.ca/en/open-data)) made available by the Government of Canada.
 
-There is three exisiting examples in the `canadian-protected-areas` directory of visualizing [Protected Areas](http://open.canada.ca/data/en/dataset/6c343726-1e92-451a-876a-76e17d398a1c) by province.
+There are three examples in the `canadian-protected-areas` directory. They show different ways of visualizing [Protected Areas](http://open.canada.ca/data/en/dataset/6c343726-1e92-451a-876a-76e17d398a1c) by province / biomes.
 
 ## Getting Started
 

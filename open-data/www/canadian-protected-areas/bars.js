@@ -5,6 +5,25 @@ var height = svg.attr("height") - margin.top - margin.bottom;
 var format = d3.format(",d");
 var g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+function translateProvince(key) {
+    var translations = {
+        "alberta": "AB",
+        "british-columbia": "BC",
+        "manitoba": "MB",
+        "new-brunswick": "NB",
+        "newfoundland-and-labrador": "NL",
+        "nova-scotia": "NS",
+        "northwest-territories": "NT",
+        "nunavut": "NU",
+        "ontario": "ON",
+        "prince-edward-island": "PE",
+        "quebec": "QC",
+        "saskatchewan": "SK",
+        "yukon-territory": "YT"
+    };
+    return translations[key];
+}
+
 d3.csv(
     "Canadian-Protected-Areas.tbl.csv",
     function(row) {
@@ -17,12 +36,12 @@ d3.csv(
     function(error, areas) {
         if (error) throw error;
 
-        // X axis: number of value per series
         var provinces = _.groupBy(areas, "province");
         var provinceKeys = _.chain(provinces).keys().sort().value();
-
-        // Y axies: number of series
         var biomes = _.chain(areas).map("biome").uniq().sort().value();
+
+        var yRange = d3.range(biomes.length);
+        var xRange = d3.range(provinceKeys.length);
 
         var seriesData = _.map(biomes, function(biome) {
             return _.map(provinceKeys, function(province) {
@@ -38,7 +57,7 @@ d3.csv(
         }).max().value();
 
         var x = d3.scaleBand()
-            .domain(d3.range(provinceKeys.length))
+            .domain(xRange)
             .rangeRound([0, width])
             .padding(0.08);
 
@@ -47,11 +66,11 @@ d3.csv(
             .range([height, 0]);
 
         var color = d3.scaleOrdinal()
-            .domain(d3.range(provinceKeys.length))
+            .domain(xRange)
             .range(d3.schemeCategory20c);
 
         var series = g.selectAll(".series")
-            .data(d3.stack().keys(d3.range(biomes.length))(d3.transpose(seriesData)))
+            .data(d3.stack().keys(yRange)(d3.transpose(seriesData)))
             .enter().append("g")
             .attr("fill", function(d, i) { return color(i); });
 
@@ -63,25 +82,33 @@ d3.csv(
             .attr("width", x.bandwidth())
             .attr("height", 0);
 
+        rect.append("title")
+            .text(function(d, i) {
+                var yValues = _.map(d.data, function(yValue, yIndex) {
+                    return biomes[yIndex] + ": " + format(yValue);
+                });
+                return provinceKeys[i] + "\n\n" + yValues.join("\n");
+            });
+
         rect.transition()
-            .delay(function(d, i) { return i * 10; })
+            .delay(function(d, i) { return i * 25; })
             .attr("y", function(d) { return y(d[1]); })
             .attr("height", function(d) { return y(d[0]) - y(d[1]); });
+
+        var axisBottom = d3.axisBottom(x)
+            .tickSize(0)
+            .tickPadding(6)
+            .tickFormat(function(i) { return translateProvince(provinceKeys[i]); });
 
         g.append("g")
             .attr("class", "axis axis--x")
             .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x)
-                  .tickSize(0)
-                  .tickPadding(6));
+            .call(axisBottom);
 
-        d3.selectAll("input")
-            .on("change", changed);
-
-        function changed() {
+        d3.selectAll("input").on("change", function() {
             if (this.value === "grouped") transitionGrouped();
             else transitionStacked();
-        }
+        });
 
         function transitionGrouped() {
             y.domain([0, maxGrouped]);

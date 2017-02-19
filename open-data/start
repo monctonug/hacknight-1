@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-cd www; python -m SimpleHTTPServer 8000

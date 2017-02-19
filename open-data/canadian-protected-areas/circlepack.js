@@ -58,7 +58,7 @@ function stratify(areas) {
 }
 
 d3.csv(
-    "Canadian-Protected-Areas.tbl.csv",
+    "https://raw.githubusercontent.com/monctonug/mug-hacknight-1/master/open-data/canadian-protected-areas/Canadian-Protected-Areas.tbl.csv",
     function(row) {
         return {
             country: "Canada",

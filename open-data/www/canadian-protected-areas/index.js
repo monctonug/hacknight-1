@@ -14,50 +14,63 @@ var treemap = d3.treemap()
     .paddingInner(1)
     .round(true);
 
+function id(...parts) {
+    return parts.join(".");
+}
+
+function parentId(id) {
+    return id.substring(0, id.lastIndexOf("."));
+}
+
+function name(id) {
+    return id.substring(id.lastIndexOf(".") + 1);
+}
+
+function datum(size, id) {
+    return {
+        id: id,
+        parentId: parentId(id),
+        size: size,
+        name: name(id)
+    };
+}
+
+function stratify(areas) {
+    let data = [];
+
+    _.chain(areas)
+        .groupBy(function(area) {
+            return id("canada", area.province, area.biome);
+        })
+        .mapValues("length")
+        .each(function(size, id) {
+            data.push(datum(size, id));
+
+            // Add missing parents
+            data.push(datum(0, parentId(id)));
+            data.push(datum(0, parentId(parentId(id))));
+        })
+        .value();
+
+    data = _.uniqBy(data, "id");
+
+    return d3.stratify()(data);
+}
+
 d3.csv(
     "Canadian-Protected-Areas.tbl.csv",
     function(row) {
         return {
-            province: row.ProvinceTerritory,
-            biome: row.Biome_En
+            country: "Canada",
+            province: _.kebabCase(row.ProvinceTerritory),
+            biome: _.kebabCase(row.Biome_En),
+            size: 1
         };
     },
     function(error, areas) {
         if (error) throw error;
 
-        // @todo convert rows to this tree:
-        var country = {
-            "name": "Canada",
-            "children": [
-                {
-                    "name": "New Brunswick",
-                    "children": [
-                        { "name": "marine", "size": 4 },
-                        { "name": "terrestrial", "size": 6 }
-                    ]
-                },
-                {
-                    "name": "Nova Scotia",
-                    "children": [
-                        { "name": "marine", "size": 3 },
-                        { "name": "terrestrial", "size": 14 }
-                    ]
-                },
-                {
-                    "name": "Quebec",
-                    "children": [
-                        { "name": "marine", "size": 15 },
-                        { "name": "terrestrial", "size": 55 }
-                    ]
-                }
-            ]
-        };
-
-        var root = d3.hierarchy(country)
-            .eachBefore(function(d) {
-                d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.name;
-                d.data.id = _.kebabCase(d.data.id);
-            })
+        var root = stratify(areas)
             .sum(function(d) { return d.size; })
             .sort(function(a, b) { return b.height - a.height || b.value - a.value; });
 
@@ -93,18 +106,15 @@ d3.csv(
             .attr("x", function(d, i) { return i ? null : 4; })
             .attr("y", 13)
             .text(function(d) { return d; });
-
-        cell.append("title")
-            .text(function(d) { return d.data.name + "\n" + format(d.value); });
     }
 );
 
 function hovered(hover) {
-  return function(d) {
-    d3.selectAll(d.ancestors().map(function(d) { return d.node; }))
-        .classed("node--hover", hover)
-      .select("rect")
-        .attr("width", function(d) { return d.x1 - d.x0 - hover; })
-        .attr("height", function(d) { return d.y1 - d.y0 - hover; });
+    return function(d) {
+        d3.selectAll(d.ancestors().map(function(d) { return d.node; }))
+          .classed("node--hover", hover)
+          .select("rect")
+          .attr("width", function(d) { return d.x1 - d.x0 - hover; })
+          .attr("height", function(d) { return d.y1 - d.y0 - hover; });
   };
 }

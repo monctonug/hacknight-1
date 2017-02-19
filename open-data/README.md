@@ -33,3 +33,7 @@ D3.js
 * [D3.js Gallery](https://github.com/d3/d3/wiki/Gallery)
 * [D3.js Tutorials](https://github.com/d3/d3/wiki/Tutorials)
 * [D3.js API Reference](https://github.com/d3/d3/blob/master/API.md)
+
+Presentations
+
+* https://maptimeboston.github.io/d3-maptime/

@@ -30,7 +30,7 @@ At the end of the night we'd like for at least one member of each group to talk 
 
 We set up a few seed project ideas in advance.
 
-* [Open Data / 3js](open-data)
+* [Open Data / D3.js](open-data)
 
 
 

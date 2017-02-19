@@ -91,7 +91,7 @@ d3.csv(
             .attr("class", "label")
             .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
             .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
-            .text(function(d) { return d.data.name; });
+            .text(function(d) { return d.children ? d.data.name : d.data.name + " " + format(d.value); });
 
         var node = g.selectAll("circle,text");
 

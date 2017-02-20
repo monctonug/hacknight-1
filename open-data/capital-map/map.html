@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Map: Protected Areas - Canada</title>
+    <title>Map: Capitals - Canada</title>
     <style>
       svg {
         border: 1px solid black;
@@ -11,6 +11,7 @@
       .feature {
         fill: #ccc;
         stroke: #fff;
+        stroke-width: 0.3px;
         stroke-linejoin: round;
         cursor: pointer;
       }
@@ -21,13 +22,12 @@
     </style>
   </head>
   <body>
-    <h3>Map: Protected Areas - Canada</h3>
+    <h3>Map: Capitals - Canada</h3>
 
     <svg width="800" height="600"></svg>
 
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
-    <script src="http://d3js.org/topojson.v1.min.js"></script>
     <script src="map.js"></script>
   </body>
 </html>

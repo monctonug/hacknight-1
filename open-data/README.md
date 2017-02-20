@@ -2,13 +2,11 @@
 
 This project consists of making [D3.js](https://d3js.org/) visualization of [Open Data](http://open.canada.ca/en/open-data)) made available by the Government of Canada.
 
-There are three examples in the `canadian-protected-areas` directory. They show different ways of visualizing [Protected Areas](http://open.canada.ca/data/en/dataset/6c343726-1e92-451a-876a-76e17d398a1c) by province / biomes.
-
 ## Getting Started
 
-It should be as simple as opening one of the HTML files from the `canadian-protected-areas` directory in your browser.
+There are sample visualization in the subdirectories. It should be as simple as opening one of the HTML file from the subdirectories in your browser to get started.
 
-The CSV is loaded from GitHub. This is to get around cross origin request issues when requesting the CSV directly from open.canada.ca or from a file on disk.
+The CSV/JSON is loaded from sources hosted on GitHub. This is to work around cross origin request issues when requesting the files directly from open.canada.ca or from disk.
 
 It may be easier to have access to a CSV file directly. To make this this possible, you have to make the files in this directory available through a web server. If you have python installed, an easy way to get started is to run the following command from this directory:
 

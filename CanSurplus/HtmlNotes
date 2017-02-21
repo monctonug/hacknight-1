@@ -1,0 +1,362 @@
+English site is: http://gcsurplus.ca/mn-eng.cfm?snc=wfsav&vndsld=0'
+
+* Listing pages: <TR> tags alternate between "ListGoods" and "altcolorListGoods" (If a U.S. firm did this ca.gov site, I'm gonna be PISSED.)
+
+* Within the <TR> tags, the <TD>s that contain the links to each category's results look like:
+<td headers="goods" clas="longtext">
+	<div clas="novisitnolink boldTxt">
+		<a href="mn-eng.cfm?&amp;snc=wfsav&amp;sc=ach-shop&amp;jstp=sly&amp;hpcs=1500&amp;vndsld=0" title="Aircraft, Airframe Components, Parts and Instruments.">Aircraft, Airframe Components, Parts and&nbsp;Instruments.</a>
+	</div>
+</td>
+
+* On the first results page, the "Next >>" link's HTML context looks like this:
+<div clas="novisit prevNext">
+	<ul>
+		<li>1- 10 of 13&nbsp;</li><li> <a href="mn-eng.cfm?&amp;snc=wfsav&amp;vndsld=0&amp;sc=ach-shop&amp;lci=&amp;sf=ferm-clos&amp;so=ASC&amp;srchtype=&amp;hpcs=3700&amp;hpsr=&amp;kws=&amp;jstp=sly&amp;str=11&amp;&amp;sr=1">Next» <span clas="hideIt"> search results</span></a>&nbsp;</li>
+	</ul> 
+</div>
+
+* On each results page, the individual items are part of a radioactive dumpster-fire that looks like this like this: 
+
+<ul clas="searchResultsTop">
+<li>
+<!--cfif snc eq 'wftat'-->
+<a id="L367148"></a>
+<table clas="searchResult">
+<tbody>
+<tr>
+<th id="itemInfo367148" clas="width70 hideIt">Item information</th>
+<th id="itemPic367148" clas="width30 hideIt">Item Picture</th>
+</tr>
+<tr clas="altColor">
+<td headers="itemInfo367148" clas="width70"> <ul clas="searchResults"> 
+   
+  <!--cfif snc eq 'wftat'-->
+  <li> <div clas="width23 floatLeft"> Item: </div> <div clas="width75 floatLeft"> <div clas="novisit">
+ <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=221225&amp;lcn=367148&amp;lct=L&amp;srchtype=&amp;lci=&amp;str=1&amp;ltnf=1&amp;frmsr=1&amp;sf=ferm-clos">  Planting Cells/Styrofoam Blocks <span clas="hideIt">-367148</span>   </a> </div> </div> <div clas="clear"></div> </li> <li>  <div clas="width23 floatLeft">   Minimum Bid:  </div>  <div clas="width75 floatLeft">   75.00  </div>  <div clas="clear"></div>  </li>  
+ 
+  
+  <li> <div clas="width23 floatLeft"> Posted:  </div> <div clas="width75 floatLeft "> 21-April-2016&nbsp;@&nbsp;9:44 <abbr title="ante meridiem">a.m.</abbr> <abbr title="EASTERN TIME">ET</abbr>  </div> <div clas="clear"></div> </li>
+   <li> <div clas="width23 floatLeft"> Closing:  </div>
+ <div clas="width75 floatLeft ">  01-May-2016&nbsp;@&nbsp;9:44 <abbr title="ante meridiem">a.m.</abbr> <abbr title="EASTERN TIME">ET</abbr> </div> <div clas="clear"></div> </li>   
+   <li> <div clas="width23 floatLeft">  Remaining: </div> <div clas="width75 floatLeft red">  2 days &nbsp;11 hours &nbsp;54 minutes </div> <div clas="clear"></div> </li> 
+  <li> <div clas="width23 floatLeft">  Location : </div> <div clas="width75 floatLeft ">  INDIAN HEAD,SK&nbsp;&nbsp;  </div> <div clas="clear"></div> </li>
+  <li> <div clas="width23 floatLeft ">  Sale Account: </div> <div clas="width75 floatLeft">  R5RE0010590-5-10169-AAFC-IH-cc </div> <div clas="clear"></div> </li> </ul>
+</td>
+<td headers="itemPic367148" clas="width30 alignRight">    
+ 
+  <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=221225&amp;lcn=367148&amp;lct=L&amp;srchtype=&amp;so=ASC&amp;sf=ferm-clos&amp;lci=&amp;str=1&amp;ltnf=1"><span clas="loseIt">367148</span> 
+  <img clas="image1" src="lotImages/tn1244576.JPEG" alt="Picture of Planting Cells/Styrofoam Blocks on Sale:R5RE0010590 Lot: 5-10169-AAFC-IH-cc" title="Picture of Planting Cells/Styrofoam Blocks on Sale:R5RE0010590 Lot: 5-10169-AAFC-IH-cc"></a> 
+ 
+</td>
+</tr>
+</tbody></table>
+</li>
+ 
+  
+<li>
+<!--cfif snc eq 'wftat'-->
+<a id="L369980"></a>
+<table clas="searchResult">
+<tbody><tr>
+<th id="itemInfo369980" clas="width70 hideIt">Item information</th>
+<th id="itemPic369980" clas="width30 hideIt">Item Picture</th>
+</tr>
+<tr>
+<td headers="itemInfo369980" clas="width70"> <ul clas="searchResults"> 
+   
+  <!--cfif snc eq 'wftat'-->
+  <li> <div clas="width23 floatLeft"> Item: </div> <div clas="width75 floatLeft"> <div clas="novisit">
+ <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=223983&amp;lcn=369980&amp;lct=L&amp;srchtype=&amp;lci=&amp;str=1&amp;ltnf=1&amp;frmsr=1&amp;sf=ferm-clos">  New Holland 512 Manure Spreader <span clas="hideIt">-369980</span>   </a> </div> </div> <div clas="clear"></div> </li> <li>  <div clas="width23 floatLeft">   Minimum Bid:  </div>  <div clas="width75 floatLeft">   400.00  </div>  <div clas="clear"></div>  </li>  
+ 
+  
+  <li> <div clas="width23 floatLeft"> Posted:  </div> <div clas="width75 floatLeft "> 25-April-2016&nbsp;@&nbsp;1:27 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr>  </div> <div clas="clear"></div> </li>
+   <li> <div clas="width23 floatLeft"> Closing:  </div>
+ <div clas="width75 floatLeft ">  02-May-2016&nbsp;@&nbsp;1:27 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr> </div> <div clas="clear"></div> </li>   
+   <li> <div clas="width23 floatLeft">  Remaining: </div> <div clas="width75 floatLeft red">  3 days &nbsp;15 hours &nbsp;37 minutes </div> <div clas="clear"></div> </li> 
+  <li> <div clas="width23 floatLeft">  Location : </div> <div clas="width75 floatLeft ">  MAYFAIR,SK&nbsp;&nbsp;  </div> <div clas="clear"></div> </li>
+  <li> <div clas="width23 floatLeft ">  Sale Account: </div> <div clas="width75 floatLeft">  R6RE0008233-5-10226-AAFC-MF-cc </div> <div clas="clear"></div> </li> </ul>
+</td>
+<td headers="itemPic369980" clas="width30 alignRight">    
+ 
+  <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=223983&amp;lcn=369980&amp;lct=L&amp;srchtype=&amp;so=ASC&amp;sf=ferm-clos&amp;lci=&amp;str=1&amp;ltnf=1"><span clas="loseIt">369980</span> 
+  <img clas="image1" src="ic-ci/images/tn410310-485277.jpg" width="165" alt="Picture of New Holland 512 Manure Spreader on R6RE0008233-5-10226-AAFC-MF-cc on Sale:R6RE0008233 Lot: 5-10226-AAFC-MF-cc" title="Picture of New Holland 512 Manure Spreader on R6RE0008233-5-10226-AAFC-MF-cc on Sale:R6RE0008233 Lot: 5-10226-AAFC-MF-cc"></a> 
+ 
+</td>
+</tr>
+</tbody></table>
+</li>
+ 
+  
+<li>
+<!--cfif snc eq 'wftat'-->
+<a id="L370169"></a>
+<table clas="searchResult">
+<tbody><tr>
+<th id="itemInfo370169" clas="width70 hideIt">Item information</th>
+<th id="itemPic370169" clas="width30 hideIt">Item Picture</th>
+</tr>
+<tr clas="altColor">
+<td headers="itemInfo370169" clas="width70"> <ul clas="searchResults"> 
+   
+  <!--cfif snc eq 'wftat'-->
+  <li> <div clas="width23 floatLeft"> Item: </div> <div clas="width75 floatLeft"> <div clas="novisit">
+ <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224166&amp;lcn=370169&amp;lct=L&amp;srchtype=&amp;lci=&amp;str=1&amp;ltnf=1&amp;frmsr=1&amp;sf=ferm-clos">  2003 John Deere 7810 Tractor <span clas="hideIt">-370169</span>   </a> </div> </div> <div clas="clear"></div> </li> <li>  <div clas="width23 floatLeft">   Minimum Bid:  </div>  <div clas="width75 floatLeft">  60,000.00  </div>  <div clas="clear"></div>  </li>  
+ 
+  
+  <li> <div clas="width23 floatLeft"> Posted:  </div> <div clas="width75 floatLeft "> 27-April-2016&nbsp;@&nbsp;2:05 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr>  </div> <div clas="clear"></div> </li>
+   <li> <div clas="width23 floatLeft"> Closing:  </div>
+ <div clas="width75 floatLeft ">  04-May-2016&nbsp;@&nbsp;2:05 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr> </div> <div clas="clear"></div> </li>   
+   <li> <div clas="width23 floatLeft">  Remaining: </div> <div clas="width75 floatLeft red">  5 days &nbsp;16 hours &nbsp;15 minutes </div> <div clas="clear"></div> </li> 
+  <li> <div clas="width23 floatLeft">  Location : </div> <div clas="width75 floatLeft ">  LAZO,BC&nbsp;&nbsp;  </div> <div clas="clear"></div> </li>
+  <li> <div clas="width23 floatLeft ">  Sale Account: </div> <div clas="width75 floatLeft">  R6VA0008245-8245 </div> <div clas="clear"></div> </li> </ul>
+</td>
+<td headers="itemPic370169" clas="width30 alignRight">    
+ 
+  <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224166&amp;lcn=370169&amp;lct=L&amp;srchtype=&amp;so=ASC&amp;sf=ferm-clos&amp;lci=&amp;str=1&amp;ltnf=1"><span clas="loseIt">370169</span> 
+  <img clas="image1" src="ic-ci/images/tn413597-495924.jpg" width="165" alt="Picture of 2003 John Deere 7810 Tractor on R6VA0008245-8245 on Sale:R6VA0008245 Lot: 8245" title="Picture of 2003 John Deere 7810 Tractor on R6VA0008245-8245 on Sale:R6VA0008245 Lot: 8245"></a> 
+ 
+</td>
+</tr>
+</tbody></table>
+</li>
+ 
+  
+<li>
+<!--cfif snc eq 'wftat'-->
+<a id="L370514"></a>
+<table clas="searchResult">
+<tbody><tr>
+<th id="itemInfo370514" clas="width70 hideIt">Item information</th>
+<th id="itemPic370514" clas="width30 hideIt">Item Picture</th>
+</tr>
+<tr>
+<td headers="itemInfo370514" clas="width70"> <ul clas="searchResults"> 
+   
+  <!--cfif snc eq 'wftat'-->
+  <li> <div clas="width23 floatLeft"> Item: </div> <div clas="width75 floatLeft"> <div clas="novisit">
+ <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224525&amp;lcn=370514&amp;lct=L&amp;srchtype=&amp;lci=&amp;str=1&amp;ltnf=1&amp;frmsr=1&amp;sf=ferm-clos">  Bush Hog Bush Cutter <span clas="hideIt">-370514</span>   </a> </div> </div> <div clas="clear"></div> </li> <li>  <div clas="width23 floatLeft">   Minimum Bid:  </div>  <div clas="width75 floatLeft">   100.00  </div>  <div clas="clear"></div>  </li>  
+ 
+  
+  <li> <div clas="width23 floatLeft"> Posted:  </div> <div clas="width75 floatLeft "> 27-April-2016&nbsp;@&nbsp;2:37 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr>  </div> <div clas="clear"></div> </li>
+   <li> <div clas="width23 floatLeft"> Closing:  </div>
+ <div clas="width75 floatLeft ">  04-May-2016&nbsp;@&nbsp;2:37 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr> </div> <div clas="clear"></div> </li>   
+   <li> <div clas="width23 floatLeft">  Remaining: </div> <div clas="width75 floatLeft red">  5 days &nbsp;16 hours &nbsp;47 minutes </div> <div clas="clear"></div> </li> 
+  <li> <div clas="width23 floatLeft">  Location : </div> <div clas="width75 floatLeft ">  COWANSVILLE,QC&nbsp;&nbsp;  </div> <div clas="clear"></div> </li>
+  <li> <div clas="width23 floatLeft ">  Sale Account: </div> <div clas="width75 floatLeft">  R6MO0008268-R8268 </div> <div clas="clear"></div> </li> </ul>
+</td>
+<td headers="itemPic370514" clas="width30 alignRight">    
+ 
+  <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224525&amp;lcn=370514&amp;lct=L&amp;srchtype=&amp;so=ASC&amp;sf=ferm-clos&amp;lci=&amp;str=1&amp;ltnf=1"><span clas="loseIt">370514</span> 
+  <img clas="image1" src="ic-ci/images/tn413909-497169.jpg" width="165" alt="Picture of Bush Hog Bush Cutter on R6MO0008268-R8268 on Sale:R6MO0008268 Lot: R8268" title="Picture of Bush Hog Bush Cutter on R6MO0008268-R8268 on Sale:R6MO0008268 Lot: R8268"></a> 
+ 
+</td>
+</tr>
+</tbody></table>
+</li>
+ 
+  
+<li>
+<!--cfif snc eq 'wftat'-->
+<a id="L370516"></a>
+<table clas="searchResult">
+<tbody><tr>
+<th id="itemInfo370516" clas="width70 hideIt">Item information</th>
+<th id="itemPic370516" clas="width30 hideIt">Item Picture</th>
+</tr>
+<tr clas="altColor">
+<td headers="itemInfo370516" clas="width70"> <ul clas="searchResults"> 
+   
+  <!--cfif snc eq 'wftat'-->
+  <li> <div clas="width23 floatLeft"> Item: </div> <div clas="width75 floatLeft"> <div clas="novisit">
+ <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224526&amp;lcn=370516&amp;lct=L&amp;srchtype=&amp;lci=&amp;str=1&amp;ltnf=1&amp;frmsr=1&amp;sf=ferm-clos">  John Deere Rear Blade <span clas="hideIt">-370516</span>   </a> </div> </div> <div clas="clear"></div> </li> <li>  <div clas="width23 floatLeft">   Minimum Bid:  </div>  <div clas="width75 floatLeft">   200.00  </div>  <div clas="clear"></div>  </li>  
+ 
+  
+  <li> <div clas="width23 floatLeft"> Posted:  </div> <div clas="width75 floatLeft "> 27-April-2016&nbsp;@&nbsp;2:37 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr>  </div> <div clas="clear"></div> </li>
+   <li> <div clas="width23 floatLeft"> Closing:  </div>
+ <div clas="width75 floatLeft ">  04-May-2016&nbsp;@&nbsp;2:37 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr> </div> <div clas="clear"></div> </li>   
+   <li> <div clas="width23 floatLeft">  Remaining: </div> <div clas="width75 floatLeft red">  5 days &nbsp;16 hours &nbsp;47 minutes </div> <div clas="clear"></div> </li> 
+  <li> <div clas="width23 floatLeft">  Location : </div> <div clas="width75 floatLeft ">  COWANSVILLE,QC&nbsp;&nbsp;  </div> <div clas="clear"></div> </li>
+  <li> <div clas="width23 floatLeft ">  Sale Account: </div> <div clas="width75 floatLeft">  R6MO0008269-R8269 </div> <div clas="clear"></div> </li> </ul>
+</td>
+<td headers="itemPic370516" clas="width30 alignRight">    
+ 
+  <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224526&amp;lcn=370516&amp;lct=L&amp;srchtype=&amp;so=ASC&amp;sf=ferm-clos&amp;lci=&amp;str=1&amp;ltnf=1"><span clas="loseIt">370516</span> 
+  <img clas="image1" src="ic-ci/images/tn413914-497190.jpg" width="165" alt="Picture of John Deere Rear Blade on R6MO0008269-R8269 on Sale:R6MO0008269 Lot: R8269" title="Picture of John Deere Rear Blade on R6MO0008269-R8269 on Sale:R6MO0008269 Lot: R8269"></a> 
+ 
+</td>
+</tr>
+</tbody></table>
+</li>
+ 
+  
+<li>
+<!--cfif snc eq 'wftat'-->
+<a id="L370776"></a>
+<table clas="searchResult">
+<tbody><tr>
+<th id="itemInfo370776" clas="width70 hideIt">Item information</th>
+<th id="itemPic370776" clas="width30 hideIt">Item Picture</th>
+</tr>
+<tr>
+<td headers="itemInfo370776" clas="width70"> <ul clas="searchResults"> 
+   
+  <!--cfif snc eq 'wftat'-->
+  <li> <div clas="width23 floatLeft"> Item: </div> <div clas="width75 floatLeft"> <div clas="novisit">
+ <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224780&amp;lcn=370776&amp;lct=L&amp;srchtype=&amp;lci=&amp;str=1&amp;ltnf=1&amp;frmsr=1&amp;sf=ferm-clos">  4 Boxes of Tree Pots <span clas="hideIt">-370776</span>   </a> </div> </div> <div clas="clear"></div> </li> <li>  <div clas="width23 floatLeft">   Minimum Bid:  </div>  <div clas="width75 floatLeft">   400.00  </div>  <div clas="clear"></div>  </li>  
+ 
+  
+  <li> <div clas="width23 floatLeft"> Posted:  </div> <div clas="width75 floatLeft "> 28-April-2016&nbsp;@&nbsp;11:57 <abbr title="ante meridiem">a.m.</abbr> <abbr title="EASTERN TIME">ET</abbr>  </div> <div clas="clear"></div> </li>
+   <li> <div clas="width23 floatLeft"> Closing:  </div>
+ <div clas="width75 floatLeft ">  05-May-2016&nbsp;@&nbsp;11:57 <abbr title="ante meridiem">a.m.</abbr> <abbr title="EASTERN TIME">ET</abbr> </div> <div clas="clear"></div> </li>   
+   <li> <div clas="width23 floatLeft">  Remaining: </div> <div clas="width75 floatLeft red">  6 days &nbsp;14 hours &nbsp;7 minutes </div> <div clas="clear"></div> </li> 
+  <li> <div clas="width23 floatLeft">  Location : </div> <div clas="width75 floatLeft ">  INDIAN HEAD,SK&nbsp;&nbsp;  </div> <div clas="clear"></div> </li>
+  <li> <div clas="width23 floatLeft ">  Sale Account: </div> <div clas="width75 floatLeft">  R6RE0008309-6-8195-AAFC-IH-cc </div> <div clas="clear"></div> </li> </ul>
+</td>
+<td headers="itemPic370776" clas="width30 alignRight">    
+ 
+  <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224780&amp;lcn=370776&amp;lct=L&amp;srchtype=&amp;so=ASC&amp;sf=ferm-clos&amp;lci=&amp;str=1&amp;ltnf=1"><span clas="loseIt">370776</span> 
+  <img clas="image1" src="ic-ci/images/tn414153-498063.jpg" width="165" alt="Picture of 4 Boxes of Tree Pots on R6RE0008309-6-8195-AAFC-IH-cc on Sale:R6RE0008309 Lot: 6-8195-AAFC-IH-cc" title="Picture of 4 Boxes of Tree Pots on R6RE0008309-6-8195-AAFC-IH-cc on Sale:R6RE0008309 Lot: 6-8195-AAFC-IH-cc"></a> 
+ 
+</td>
+</tr>
+</tbody></table>
+</li>
+ 
+  
+<li>
+<!--cfif snc eq 'wftat'-->
+<a id="L370689"></a>
+<table clas="searchResult">
+<tbody><tr>
+<th id="itemInfo370689" clas="width70 hideIt">Item information</th>
+<th id="itemPic370689" clas="width30 hideIt">Item Picture</th>
+</tr>
+<tr clas="altColor">
+<td headers="itemInfo370689" clas="width70"> <ul clas="searchResults"> 
+   
+  <!--cfif snc eq 'wftat'-->
+  <li> <div clas="width23 floatLeft"> Item: </div> <div clas="width75 floatLeft"> <div clas="novisit">
+ <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224699&amp;lcn=370689&amp;lct=L&amp;srchtype=&amp;lci=&amp;str=1&amp;ltnf=1&amp;frmsr=1&amp;sf=ferm-clos">  Howard Rotavator 4 Rotary Tiller <span clas="hideIt">-370689</span>   </a> </div> </div> <div clas="clear"></div> </li> <li>  <div clas="width23 floatLeft">   Minimum Bid:  </div>  <div clas="width75 floatLeft">   100.00  </div>  <div clas="clear"></div>  </li>  
+ 
+  
+  <li> <div clas="width23 floatLeft"> Posted:  </div> <div clas="width75 floatLeft "> 28-April-2016&nbsp;@&nbsp;2:13 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr>  </div> <div clas="clear"></div> </li>
+   <li> <div clas="width23 floatLeft"> Closing:  </div>
+ <div clas="width75 floatLeft ">  05-May-2016&nbsp;@&nbsp;2:13 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr> </div> <div clas="clear"></div> </li>   
+   <li> <div clas="width23 floatLeft">  Remaining: </div> <div clas="width75 floatLeft red">  6 days &nbsp;16 hours &nbsp;23 minutes </div> <div clas="clear"></div> </li> 
+  <li> <div clas="width23 floatLeft">  Location : </div> <div clas="width75 floatLeft ">  L'ACADIE,QC&nbsp;&nbsp;  </div> <div clas="clear"></div> </li>
+  <li> <div clas="width23 floatLeft ">  Sale Account: </div> <div clas="width75 floatLeft">  R6MO0008296-8296 </div> <div clas="clear"></div> </li> </ul>
+</td>
+<td headers="itemPic370689" clas="width30 alignRight">    
+ 
+  <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224699&amp;lcn=370689&amp;lct=L&amp;srchtype=&amp;so=ASC&amp;sf=ferm-clos&amp;lci=&amp;str=1&amp;ltnf=1"><span clas="loseIt">370689</span> 
+  <img clas="image1" src="ic-ci/images/tn413839-496761.jpg" width="165" alt="Picture of Howard Rotavator 4 Rotary Tiller on R6MO0008296-8296 on Sale:R6MO0008296 Lot: 8296" title="Picture of Howard Rotavator 4 Rotary Tiller on R6MO0008296-8296 on Sale:R6MO0008296 Lot: 8296"></a> 
+ 
+</td>
+</tr>
+</tbody></table>
+</li>
+ 
+  
+<li>
+<!--cfif snc eq 'wftat'-->
+<a id="L370517"></a>
+<table clas="searchResult">
+<tbody><tr>
+<th id="itemInfo370517" clas="width70 hideIt">Item information</th>
+<th id="itemPic370517" clas="width30 hideIt">Item Picture</th>
+</tr>
+<tr>
+<td headers="itemInfo370517" clas="width70"> <ul clas="searchResults"> 
+   
+  <!--cfif snc eq 'wftat'-->
+  <li> <div clas="width23 floatLeft"> Item: </div> <div clas="width75 floatLeft"> <div clas="novisit">
+ <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224527&amp;lcn=370517&amp;lct=L&amp;srchtype=&amp;lci=&amp;str=1&amp;ltnf=1&amp;frmsr=1&amp;sf=ferm-clos">  Buhler Lawnmower <span clas="hideIt">-370517</span>   </a> </div> </div> <div clas="clear"></div> </li> <li>  <div clas="width23 floatLeft">   Minimum Bid:  </div>  <div clas="width75 floatLeft">   1,000.00  </div>  <div clas="clear"></div>  </li>  
+ 
+  
+  <li> <div clas="width23 floatLeft"> Posted:  </div> <div clas="width75 floatLeft "> 28-April-2016&nbsp;@&nbsp;2:24 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr>  </div> <div clas="clear"></div> </li>
+   <li> <div clas="width23 floatLeft"> Closing:  </div>
+ <div clas="width75 floatLeft ">  05-May-2016&nbsp;@&nbsp;2:24 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr> </div> <div clas="clear"></div> </li>   
+   <li> <div clas="width23 floatLeft">  Remaining: </div> <div clas="width75 floatLeft red">  6 days &nbsp;16 hours &nbsp;34 minutes </div> <div clas="clear"></div> </li> 
+  <li> <div clas="width23 floatLeft">  Location : </div> <div clas="width75 floatLeft ">  COWANSVILLE,QC&nbsp;&nbsp;  </div> <div clas="clear"></div> </li>
+  <li> <div clas="width23 floatLeft ">  Sale Account: </div> <div clas="width75 floatLeft">  R6MO0008270-R8270 </div> <div clas="clear"></div> </li> </ul>
+</td>
+<td headers="itemPic370517" clas="width30 alignRight">    
+ 
+  <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224527&amp;lcn=370517&amp;lct=L&amp;srchtype=&amp;so=ASC&amp;sf=ferm-clos&amp;lci=&amp;str=1&amp;ltnf=1"><span clas="loseIt">370517</span> 
+   
+ <img clas="image1" src="ic-ci/images/tn413919-497210.jpg" width="165" alt="Picture of Buhler Lawnmower on R6MO0008270-R8270 on Sale:R6MO0008270 Lot: R8270" title="Picture of Buhler Lawnmower on R6MO0008270-R8270 on Sale:R6MO0008270 Lot: R8270"></a> 
+ 
+</td>
+</tr>
+</tbody></table>
+</li>
+ 
+  
+<li>
+<!--cfif snc eq 'wftat'-->
+<a id="L370778"></a>
+<table clas="searchResult">
+<tbody><tr>
+<th id="itemInfo370778" clas="width70 hideIt">Item information</th>
+<th id="itemPic370778" clas="width30 hideIt">Item Picture</th>
+</tr>
+<tr clas="altColor">
+<td headers="itemInfo370778" clas="width70"> <ul clas="searchResults"> 
+   
+  <!--cfif snc eq 'wftat'-->
+  <li> <div clas="width23 floatLeft"> Item: </div> <div clas="width75 floatLeft"> <div clas="novisit">
+ <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224782&amp;lcn=370778&amp;lct=L&amp;srchtype=&amp;lci=&amp;str=1&amp;ltnf=1&amp;frmsr=1&amp;sf=ferm-clos">  10 Soil Drifting Collectors <span clas="hideIt">-370778</span>   </a> </div> </div> <div clas="clear"></div> </li> <li>  <div clas="width23 floatLeft">   Minimum Bid:  </div>  <div clas="width75 floatLeft">   500.00  </div>  <div clas="clear"></div>  </li>  
+ 
+  
+  <li> <div clas="width23 floatLeft"> Posted:  </div> <div clas="width75 floatLeft "> 28-April-2016&nbsp;@&nbsp;4:03 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr>  </div> <div clas="clear"></div> </li>
+   <li> <div clas="width23 floatLeft"> Closing:  </div>
+ <div clas="width75 floatLeft ">  05-May-2016&nbsp;@&nbsp;4:03 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr> </div> <div clas="clear"></div> </li>   
+   <li> <div clas="width23 floatLeft">  Remaining: </div> <div clas="width75 floatLeft red">  6 days &nbsp;18 hours &nbsp;13 minutes </div> <div clas="clear"></div> </li> 
+  <li> <div clas="width23 floatLeft">  Location : </div> <div clas="width75 floatLeft ">  INDIAN HEAD,SK&nbsp;&nbsp;  </div> <div clas="clear"></div> </li>
+  <li> <div clas="width23 floatLeft ">  Sale Account: </div> <div clas="width75 floatLeft">  R6RE0008311-6-8196-AAFC-IH-cc </div> <div clas="clear"></div> </li> </ul>
+</td>
+<td headers="itemPic370778" clas="width30 alignRight">    
+ 
+  <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224782&amp;lcn=370778&amp;lct=L&amp;srchtype=&amp;so=ASC&amp;sf=ferm-clos&amp;lci=&amp;str=1&amp;ltnf=1"><span clas="loseIt">370778</span> 
+  <img clas="image1" src="ic-ci/images/tn414154-498080.jpg" width="165" alt="Picture of 10 Soil Drifting Collectors on R6RE0008311-6-8196-AAFC-IH-cc on Sale:R6RE0008311 Lot: 6-8196-AAFC-IH-cc" title="Picture of 10 Soil Drifting Collectors on R6RE0008311-6-8196-AAFC-IH-cc on Sale:R6RE0008311 Lot: 6-8196-AAFC-IH-cc"></a> 
+ 
+</td>
+</tr>
+</tbody></table>
+</li>
+ 
+  
+<li>
+<!--cfif snc eq 'wftat'-->
+<a id="L370890"></a>
+<table clas="searchResult">
+<tbody><tr>
+<th id="itemInfo370890" clas="width70 hideIt">Item information</th>
+<th id="itemPic370890" clas="width30 hideIt">Item Picture</th>
+</tr>
+<tr>
+<td headers="itemInfo370890" clas="width70"> <ul clas="searchResults"> 
+   
+  <!--cfif snc eq 'wftat'-->
+  <li> <div clas="width23 floatLeft"> Item: </div> <div clas="width75 floatLeft"> <div clas="novisit">
+ <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224887&amp;lcn=370890&amp;lct=L&amp;srchtype=&amp;lci=&amp;str=1&amp;ltnf=1&amp;frmsr=1&amp;sf=ferm-clos">  Masey Harris MH-1 Tractor Blade <span clas="hideIt">-370890</span>   </a> </div> </div> <div clas="clear"></div> </li> <li>  <div clas="width23 floatLeft">   Minimum Bid:  </div>  <div clas="width75 floatLeft">   50.00  </div>  <div clas="clear"></div>  </li>  
+ 
+  
+  <li> <div clas="width23 floatLeft"> Posted:  </div> <div clas="width75 floatLeft "> 28-April-2016&nbsp;@&nbsp;4:54 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr>  </div> <div clas="clear"></div> </li>
+   <li> <div clas="width23 floatLeft"> Closing:  </div>
+ <div clas="width75 floatLeft ">  05-May-2016&nbsp;@&nbsp;4:54 <abbr title="post meridiem">p.m.</abbr> <abbr title="EASTERN TIME">ET</abbr> </div> <div clas="clear"></div> </li>   
+   <li> <div clas="width23 floatLeft">  Remaining: </div> <div clas="width75 floatLeft red">  6 days &nbsp;19 hours &nbsp;4 minutes </div> <div clas="clear"></div> </li> 
+  <li> <div clas="width23 floatLeft">  Location : </div> <div clas="width75 floatLeft ">  GALLIVAN,SK&nbsp;&nbsp;  </div> <div clas="clear"></div> </li>
+  <li> <div clas="width23 floatLeft ">  Sale Account: </div> <div clas="width75 floatLeft">  R6RE0008329-5-10236-AAFC-GAL-c </div> <div clas="clear"></div> </li> </ul>
+</td>
+<td headers="itemPic370890" clas="width30 alignRight">    
+ 
+  <a href="mn-eng.cfm?snc=wfsav&amp;sc=enc-bid&amp;scn=224887&amp;lcn=370890&amp;lct=L&amp;srchtype=&amp;so=ASC&amp;sf=ferm-clos&amp;lci=&amp;str=1&amp;ltnf=1"><span clas="loseIt">370890</span> 
+  <img clas="image1" src="ic-ci/images/tn410431-485562.jpg" width="165" alt="Picture of Masey Harris MH-1 Tractor Blade on R6RE0008329-5-10236-AAFC-GAL-c on Sale:R6RE0008329 Lot: 5-10236-AAFC-GAL-c" title="Picture of Masey Harris MH-1 Tractor Blade on R6RE0008329-5-10236-AAFC-GAL-c on Sale:R6RE0008329 Lot: 5-10236-AAFC-GAL-c"></a> 
+ 
+</td>
+</tr>
+</tbody></table>
+</li>
+</ul>

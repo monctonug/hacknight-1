@@ -1,0 +1,77 @@
+********************
+*** Introduction ***
+********************
+
+The overall goal of this application is to allow people to define notifications
+of when items become available for sale via the Government of Canada's Surplus
+website.  Currently, people must search for results.
+
+In other words, we are turning a pull-only mechanism to a push mechanism, at 
+least for the end-user.
+
+	** NOTE: This application does not handle the transactions; this must
+still be done via CanSurplus. **
+
+In the simplest version (i.e. V1.0), users will receive an email or text message
+when an item that matches their keywords becomes available.  A web-based 
+registration and account management system would be version 2.0; the 
+Android/iOS apps would be at least version 3.0.
+
+
+********************
+*** Requirements ***
+********************
+
+Bilingual support for both French and English should, at a minimum, be built 
+the data structure and/or UI templates.
+
+The simplest version of the application has three separate scripts that are
+triggered by scheduled jobs:
+	1.) Items are pulled off gcsurplus.ca and written to the database
+	2.) Item listings are parsed and compared against categories and keywords
+		registered by users and matches written to the database
+	3.) Users are informed of matches (with link to item listing) by email
+
+cURL requests (or possibly a headless version of Selenium Web Driver???) 
+to "scrape" information off the website.
+
+	** NOTE:  Results are more than likely to be spread over multiple pages. **
+
+Individual items are added to the database based on the category under which
+the Government of Canada surplus site lists them.
+
+After items are "scraped" off the gcsurplus.ca website are added to the
+database, a second job compares item listing to keywords registered by users
+and logs any matches in the database
+
+Finally, a third job emails matches to registered users -- at a minimum, a link
+to the item on the gcsurplus.ca website
+
+
+*****************
+*** Resources ***
+*****************
+
+Main website is www.gcsurplus.ca
+
+"Screenshot from 2016-04-27 22:38:16.png" is a snapshot of the "Cateories" page
+that lists the general types of items for sale on CanSurplus.
+
+"HTML Notes" is a text file that contains relevant snippets of the HTML code
+on the gcsurplus.ca website that will need to be parsed into database entries
+
+"GCSurplusExampleListing.png" is a screenshot of the high-level information
+available about a given item.  More details about the item are found behind
+the first URL in each listing.
+
+
+*********************
+*** Nice-to-Haves ***
+*********************
+
+A separate step for "clicking through" to the first URL of each listing to 
+get the details about each item
+
+An "unsubscribe from this category/keyword" mechanism -- e.g. a link in each
+email that the user clicks, which takes her/him to a webpage where s/he clicks 
+a second URL to confirm unsubscription

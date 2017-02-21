@@ -1,0 +1,54 @@
+********************
+*** Introduction ***
+********************
+
+The purpose of this project is to create an HTML5-based application that will
+allow someone to generate a sheet of images that are "masked" for printing on
+a button-making press.
+
+The app. uses two images:
+	1.) The image ("target") to be printed on a round button, and
+	2.) The "masking" image that defines the printed area for the button.
+
+Currently, the dimensions of the printable area is defined by the button-
+maker currently in use by the Moncton Public Library's MakerSpace, but can be
+adjusted by the programmer.
+
+
+********************
+*** Requirements ***
+********************
+
+The user should be able to drag the target image into position behind the
+masking image until s/he considers it centered.
+
+Once the image is centered, the user should have a mechanism (maybe a button?)
+for "locking" it in place so that it can't be accidentally dragged out of
+position.
+
+Ideally, the user should be able to click another button to tile the target + 
+masking image area to fill out a printed sheet of paper (e.g. 8.5" x 11").
+
+
+*****************
+*** Resources ***
+*****************
+
+One of the three "masking" images (based on the background colour of the 
+target image):
+	a.) ButtonMaskingImageBlackBackground.png
+	b.) ButtonMaskingImageWhiteBackground.png
+	c.) ButtonMaskingImageYellowBackground.png
+
+
+*********************
+*** Nice-to-Haves ***
+*********************
+
+If the target photo is not already sized to match the max. height and/or max.
+width of the masking image, the code should handle that.  
+
+The user can select one of the three "masking" images at any time.
+
+The user can change the print area from 8.5" x 11" to something else (e.g.
+11" X 17").

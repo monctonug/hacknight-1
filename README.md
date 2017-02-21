@@ -36,10 +36,6 @@ We set up a few seed project ideas in advance.
 
 ## Resources
 
-### How do I get on the Wi-Fi?
-
-TODO
-
 ### How do I get access to `monctonug` on GitHub?
 
-TODO
+You are free to create a [fork](https://help.github.com/articles/fork-a-repo/) of this repository. If you would like to contribute back to the project, you can open a [pull request](https://help.github.com/articles/about-pull-requests/).

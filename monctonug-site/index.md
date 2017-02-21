@@ -6,7 +6,7 @@ The Moncton UG site is currently served statically from a [Digital Ocean](https:
 
 When publishing the site today, `sync.rb` will fetch event information from the Eventbrite API and add pages to `sources/articles/` in a format that is ready to commit+build. This is not a strict requirement and it would be fine if adding a new event to the site meant having to create a new markdown file by hand.
 
-Some of the options I'm thinking about which can be explored separately.
+Below are some of the options I'm thinking about. They could be explored separately.
 
 
 ## 1) GitHub Pages

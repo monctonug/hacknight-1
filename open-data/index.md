@@ -39,4 +39,4 @@ D3.js
 
 Presentations
 
-* https://maptimeboston.github.io/d3-maptime/
+* [Mapping With D3 - A Friendly Introduction](https://maptimeboston.github.io/d3-maptime/)

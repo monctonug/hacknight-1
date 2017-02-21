@@ -2,3 +2,5 @@ theme: jekyll-theme-cayman
 
 title: "Hack Night #1"
 description: "Moncton User Group"
+
+show_downloads: true

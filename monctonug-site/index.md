@@ -1,8 +1,8 @@
-# Moncton Developer User Group Site
+# Project: Moncton Developer User Group Site
 
-What would it take to make the [Moncton UG site](https://github.com/monctonug/monctonug-site) even simpler to host/manage.
+*What would it take to make the [Moncton UG site](https://github.com/monctonug/monctonug-site) even simpler to host/manage?*
 
-The site is currently served statically from a [Digital Ocean](https://www.digitalocean.com/) instance and generated using [Middleman](https://middlemanapp.com/). It's updated by running `publish.sh` via ~~cron~~ Vincent.
+The Moncton UG site is currently served statically from a [Digital Ocean](https://www.digitalocean.com/) instance and generated using [Middleman](https://middlemanapp.com/). It's updated by running `publish.sh` via ~~cron~~ Vincent.
 
 When publishing the site today, `sync.rb` will fetch event information from the Eventbrite API and add pages to `sources/articles/` in a format that is ready to commit+build. This is not a strict requirement and it would be fine if adding a new event to the site meant having to create a new markdown file by hand.
 

@@ -1,4 +1,4 @@
-# Open Data
+# Project: Open Data
 
 This project consists of making [D3.js](https://d3js.org/) visualization of [Open Data](http://open.canada.ca/en/open-data)) made available by the Government of Canada.
 

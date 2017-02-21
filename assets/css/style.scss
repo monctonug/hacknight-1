@@ -1,0 +1,11 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1 > a {
+    color: inherit;
+}
+h1 > a:hover {
+    text-decoration: none;
+}

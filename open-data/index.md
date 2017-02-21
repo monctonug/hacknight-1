@@ -8,7 +8,7 @@ There are sample visualization in the subdirectories. It should be as simple as 
 
 * [Bars: Protected Areas - Canada](https://monctonug.github.io/mug-hacknight-1/open-data/canadian-protected-areas/bars.html)
 * [Treemap: Protected Areas - Canada](https://monctonug.github.io/mug-hacknight-1/open-data/canadian-protected-areas/treemap.html)
-* [Circle Packing: Protected Areas - Canada](https://monctonug.github.io/mug-hacknight-1/open-data/canadian-protected-areas/treemap.html)
+* [Circle Packing: Protected Areas - Canada](https://monctonug.github.io/mug-hacknight-1/open-data/canadian-protected-areas/circlepack.html)
 * [Map: Capitals - Canada](https://monctonug.github.io/mug-hacknight-1/open-data/capital-map/map.html)
 
 The CSV/JSON is loaded from sources hosted on GitHub. This is to work around cross origin request issues when requesting the files directly from open.canada.ca or from disk.

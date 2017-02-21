@@ -1,4 +1,4 @@
-# Moncton User Group - Hack Night #1
+# Overview
 
 Welcome to our first Moncton User Group Hack Night (February 21, 2017). Below you will find information on how the night will proceed and a few seed projects already set up to get started.
 

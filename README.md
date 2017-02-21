@@ -16,7 +16,7 @@ This is also  a good time to make sure that your computer works, can go on the i
 
 ### 7:00pm - 8:30pm: Work on a project
 
-Now that everyone is in group, it's time to get started. Each group will be on their own. A few of us will be going around the room to make sure no one is blocked and always making forward progress.
+Now that everyone are in groups, it's time to get started. Each group will be on their own. A few of us will be going around the room to make sure no one is blocked and always making forward progress.
 
 
 ### 8:30pm - 9:00pm: Status  reports and/or Demos

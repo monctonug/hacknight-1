@@ -13,10 +13,14 @@ There are sample visualization in the subdirectories. It should be as simple as 
 
 The CSV/JSON is loaded from sources hosted on GitHub. This is to work around cross origin request issues when requesting the files directly from open.canada.ca or from disk.
 
-It may be easier to have access to a CSV file directly. To make this this possible, you have to make the files in this directory available through a web server. If you have python installed, an easy way to get started is to run the following command from this directory:
+It may be easier to have access to a CSV file directly. To make this this possible, you have to make the files in this directory available through a web server. If you have python installed, an easy way to get started is to run one of the following commands from this directory:
 
 ```
 python -m SimpleHTTPServer 8000
+```
+
+```
+php -S localhost:8000
 ```
 
 You can then access documents by navigating to http://localhost:8000/ in your browser.

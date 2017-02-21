@@ -30,6 +30,8 @@ We set up a few seed project ideas in advance.
 
 * [Open Data / D3.js](open-data)
 * [Moncton User Group Site](monctonug-site)
+* [CanSurplus](https://github.com/monctonug/hacknight-1/tree/master/CanSurplus)
+* [MPLButtonMaker](https://github.com/monctonug/hacknight-1/tree/master/MPLButtonMaker)
 
 
 ## Resources
